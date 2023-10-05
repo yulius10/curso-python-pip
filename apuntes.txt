@@ -23,3 +23,10 @@ luego procedemos en activar el ambiente con el siguiente comando
 source env/bin/activate
 para desactivalor
 deactivate
+
+
+para generar todas las dependencias de un proyecto se puede hacer de
+la siguiente manera
+pip3 freeze > requirements.txt 
+ahora para poder instalar las dependencias se realiza lo siguiente
+pip3 install -r requirements.txt
