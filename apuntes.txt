@@ -1,0 +1,25 @@
+para instalar una version en especifico de una libreria se utiliza el siguiente comando:
+pip3 install nomLib == numero de version
+ejem pip3 install matplotlib==3.5.0
+
+desinstalar panda
+desinstalar matplotlib
+
+para poder armar un ambiente virtual, lo primero que se debe
+saber es donde esta ubicado python y pip en el equipo
+con el siguiente comando se podra tener esta informacion
+
+which python3
+which pip3
+
+se debe instalar el ambiente virtual
+sudo apt install -y python3-venv
+
+luego se va a la carpeta del proyecto y se instala el ambiente
+de la siguiente manera
+python3 -m venv env
+env --- es el nombre del ambiente   
+luego procedemos en activar el ambiente con el siguiente comando
+source env/bin/activate
+para desactivalor
+deactivate
