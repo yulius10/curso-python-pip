@@ -30,3 +30,8 @@ la siguiente manera
 pip3 freeze > requirements.txt 
 ahora para poder instalar las dependencias se realiza lo siguiente
 pip3 install -r requirements.txt
+
+
+para iniciar un servidor local es con el siguiente comando
+uvicorn main:app --reload
+donde app es el nombre del proyecto
